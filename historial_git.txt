@@ -1,0 +1,1000 @@
+ 1067  sudo mkfs.ext4 /dev/sde5
+ 1068  sudo mkfs.ext4 /dev/sde6
+ 1069  clear
+ 1070  sudo fdisk -l |grep /dev/sde
+ 1071  sudo nano /etc/fstab
+ 1072  sudo mount -a /dev/sde1
+ 1073  sudo mount -a /dev/sde5
+ 1074  sudo mount -a /dev/sde6
+ 1075  sudo umount /dev/sde6
+ 1076  sudo umount /dev/sde5
+ 1077  sudo umount /dev/sde1
+ 1078  clear
+ 1079  sudo fdisk /dev/sde
+ 1080  sudo fdisk -l | grep /dev/sde
+ 1081  clear
+ 1082  sudo shutdown -r now
+ 1083  sudo cat /proc/mdstat
+ 1084  sudo nano /etc/mdadm/mdadm.conf
+ 1085  sudo umount /dev/md127
+ 1086  sudo mdadm --detail /dev/md127
+ 1087  sudo mdadm --stop /dev/md127
+ 1088  sudo mdadm --detail /dev/md127
+ 1089  sudo mdadm --remove /dev/md127
+ 1090  sudo mdadm --detail **scan
+ 1091  sudo mdadm --detail --scan
+ 1092  clear
+ 1093  fd -h
+ 1094  df -h
+ 1095  cat /etc/fstab
+ 1096  clear
+ 1097  sudo fdisk -l
+ 1098  sudo fdisk -l | grep /dev
+ 1099  sudo fdisk /dev/sdb
+ 1100  sudo fdisk /dev/sdc
+ 1101  sudo fdisk /dev/sdd
+ 1102  sudo fdisk /dev/sde
+ 1103  clear
+ 1104  sudo fdisk /dev/sdb
+ 1105  sudo fdisk /dev/sdc
+ 1106  sudo fdisk /dev/sdd
+ 1107  sudo fdisk /dev/sde
+ 1108  clear
+ 1109  ls -l /media
+ 1110  clear
+ 1111  sudo mknod /dev/md12 b 9 0
+ 1112  sudo mdadm --create /dev/md12 --level=raid5 --raid-devices=3 /dev/sdb1 /dev/sdc1 /dev/sdd1 --spare-devices=1 /dev/sde1
+ 1113  cat /proc/mdstat
+ 1114  clear
+ 1115  sudo mdadm --detail /dev/md12
+ 1116  clear
+ 1117  cat /proc/mdstat
+ 1118  sudo mkfs.ext4 /dev/md12
+ 1119  sudo fdisk -l | grep /dev
+ 1120  clear
+ 1121  sudo nautilus
+ 1122  sudo apt-get update
+ 1123  sudo apt-get upgrate
+ 1124  sudo apt-get udgrate
+ 1125  sudo apt-get upgrade
+ 1126  sudo apt-get myAgilePomodoro
+ 1127  sudo apt-get Pomodoro
+ 1128  clear
+ 1129  sudo fdisk -l
+ 1130  clear
+ 1131  sudo fdisk /dev/sdb
+ 1132  sudo fdisk /dev/sdc
+ 1133  sudo fdisk /dev/sdd
+ 1134  sudo fdisk /dev/sde
+ 1135  clear
+ 1136  sudo mknod /dev/md12
+ 1137  clear 
+ 1138  sudo mknod /dev/md12 b 9 0
+ 1139  sudo mdadm --create /dev/md12 --level=raid5 --raid-devices=3 /dev/sdb1 /dev/sdc1 /dev/sdd1 --spare-devices=1 /dev/sde1
+ 1140  cat /proc/mdstat
+ 1141  sudo mdadm --detail /dev/md12
+ 1142  sudo mdadm --stop /dev/md12
+ 1143  sudo mdadm --remove /dev/md12
+ 1144  cat /proc/mdstat
+ 1145  sudo mdadm --stop /dev/md12
+ 1146  cat /proc/mdstat
+ 1147  sudo mdadm --remove /dev/md12
+ 1148  ls -l /dev
+ 1149  ls -l /dev/md*
+ 1150  sudo rmdir /dev/md*
+ 1151  sudo rm  /dev/md*
+ 1152  ls -l /dev/md*
+ 1153  ls -l /dev/m
+ 1154  ls -l /dev/
+ 1155  clear
+ 1156  sudo fdisk -l \ grep /dev
+ 1157  sudo fdisk -l | grep /dev
+ 1158  cat /proc/mdstat
+ 1159  sudo mknod /dev/md12 b 9 0
+ 1160  sudo mdadm --stop /dev/md12
+ 1161  sudo mdadm --remove /dev/md12
+ 1162  sudo mdadm --stop /dev/md12
+ 1163  cat /proc/mdstat
+ 1164  sudo mdadm -- help
+ 1165  mdadm -- help
+ 1166  mdadm --help
+ 1167  sudo mdadm --manage /dev/md12
+ 1168  sudo mdadm --stop /dev/md12
+ 1169  sudo mdadm --monitor /dev/md12
+ 1170  ps -la
+ 1171  ps -le
+ 1172  clear
+ 1173  sudo fdisk /dev/sdb
+ 1174  sudo fdisk -l | grep /dev
+ 1175  sudo nautilus
+ 1176  clear
+ 1177  sudo fdisk -l | grep /dev
+ 1178  sudo fdisk /dev/sdb
+ 1179  clear
+ 1180  shutdown -h now
+ 1181  cat /proc/mdstat
+ 1182  sudo mdadm --detail /dev/md127
+ 1183  cat /etc/mdadm/mdadm.conf
+ 1184  clear
+ 1185  sudo mdadm --stop /dev/md127
+ 1186  sudo mdadm --remove /dev/md127
+ 1187  cat /proc/mdstat
+ 1188  sudo mdadm --detail /dev/md127
+ 1189  sudo fdisk /dev/sdb
+ 1190  sudo fdisk -l | grep /dev/sdb
+ 1191  sudo fdisk -l | grep /dev/
+ 1192  ls -l /dev/m*
+ 1193  sudo rm -r /dev/md127
+ 1194  ls -l /dev/m*
+ 1195  clear
+ 1196  sudo fdisk -l | grep /dev/
+ 1197  shutdown -h now
+ 1198  cat /proc/mdstat
+ 1199  sudo nano /etc/mtab
+ 1200  cat /etc/shadow
+ 1201  sudo cat /etc/shadow
+ 1202  sudo cat /etc/shadow | sort -t ':' -k1 
+ 1203  sudo cat /etc/shadow | sort -t ':' -k1 | top -n3
+ 1204  sudo cat /etc/shadow | sort -t ':' -k1 | top -n 3
+ 1205  sudo cat /etc/shadow | sort -t ':' -k1 | top -n
+ 1206  sudo cat /etc/shadow | sort -t ':' -k1 | top -O
+ 1207  sudo cat /etc/shadow | sort -t ':' -k1
+ 1208  sudo cat /etc/shadow | sort -t ':' -k1 | top -O
+ 1209  top -O
+ 1210  top -z
+ 1211  top -Z
+ 1212  top Z
+ 1213  top -u
+ 1214  top -u tecmint
+ 1215  top -u adrian
+ 1216  clear
+ 1217  top --help
+ 1218  sudo cat /etc/shadow | sort -t ':' -k1 | top
+ 1219  sudo cat /etc/shadow | sort -t ':' -k1 |
+ 1220  sudo cat /etc/shadow | sort -t ':' -k1 
+ 1221  sudo cat /etc/shadow | sort -t ':' -k1 | tail -n 6
+ 1222  tail main
+ 1223  tail man
+ 1224  tail ?
+ 1225  tail --help
+ 1226  clear
+ 1227  find /fstab
+ 1228  find /etc/fstab
+ 1229  find -name fstab
+ 1230  ls
+ 1231  mkdir -p raiz/adriano{prueba1,prueba2,prueba3}
+ 1232  cd raiz/adriano
+ 1233  cd raiz
+ 1234  ls
+ 1235  mkdir -p alli/carlos/{tobi,kira}
+ 1236  ls
+ 1237  tree
+ 1238  rmdir adriano{prueba1,prueba2,prueba3}
+ 1239  mkdir adriano/{prueba1,prueba2,prueba3}
+ 1240  mkdir -p adriano/{prueba1,prueba2,prueba3}
+ 1241  tree
+ 1242  cd ..
+ 1243  clear
+ 1244  pwd
+ 1245  find -name adriano
+ 1246  cd ..
+ 1247  find -name adriano
+ 1248  clear
+ 1249  cd /home
+ 1250  cd adrian
+ 1251  find -name adriano
+ 1252  find -user adrian
+ 1253  find -user adrian adriano
+ 1254  find -user adriano
+ 1255  find -name \^a*
+ 1256  find -name \^a.*
+ 1257  find -name ^a.*
+ 1258  find -name ^a*
+ 1259  find -name ^a
+ 1260  find -name '^a*'
+ 1261  find -name adriano
+ 1262  clear
+ 1263  find -name adriano
+ 1264  tail -4 /etc/passwd
+ 1265  tail -4 /etc/passwd | sort -t ':' -k4
+ 1266  tail -4 /etc/passwd | sort -t ':' -k1
+ 1267  tail -4 /etc/passwd | sort -t ':' -k5
+ 1268  pwd
+ 1269  cd Documentos
+ 1270  find *.sh
+ 1271  find proyecto/*.sh
+ 1272  cd ..
+ 1273  find Documentos/proyecto/*.sh
+ 1274  find Documentos/proyecto/^a*.sh
+ 1275  find Documentos/proyecto/^a*
+ 1276  ls
+ 1277  clear
+ 1278  mdadm --details
+ 1279  mdadm -details
+ 1280  man mdadm
+ 1281  clear
+ 1282  sudo vi /etc/fstab 
+ 1283  sudo fdiks -l
+ 1284  sudo fdisk -l
+ 1285  sudo fdisk -delete /dev/md127
+ 1286  sudo fdisk  /dev/md127
+ 1287  clear
+ 1288  mdadm --remove /dev/md127
+ 1289  sudo mdadm --remove /dev/md127
+ 1290  sudo mdadm --remove --force /dev/md127
+ 1291  sudo mdadm --remove /dev/md127
+ 1292  cat/proc/mdstat
+ 1293  cat /proc/mdstat
+ 1294  sudo mdadm --stop /dev/md127
+ 1295  cat /proc/mdstat
+ 1296  sudo mdadm --remove /dev/md127
+ 1297  sudo reboot
+ 1298  sudo gparted
+ 1299  sudo gparted &
+ 1300  cat /proc/mdstat
+ 1301  mdadm --stop /dev/md 127
+ 1302  sudo mdadm --stop /dev/md 127
+ 1303  sudo mdadm --stop /dev/md127
+ 1304  sudo mdadm --stop /dev/md 127
+ 1305  mdadm --stop /dev/md 127
+ 1306  cat /proc/mdstat
+ 1307  sudo mdadm --delete /dev/md127
+ 1308  sudo mdadm --remove /dev/md127
+ 1309  clear
+ 1310  fdisk /dev/sdb
+ 1311  sudo fdisk /dev/sdb
+ 1312  sudo fdisk /dev/sdc
+ 1313  sudo fdisk /dev/sdd
+ 1314  sudo fdisk /dev/sde
+ 1315  clear
+ 1316  sudo reboot
+ 1317  sudo gparted 
+ 1318  sudo gparted &
+ 1319  sudo gparted 
+ 1320  clear
+ 1321  /proc/mdstat
+ 1322  sudo /proc/mdstat
+ 1323  cat  /proc/mdstat
+ 1324  celar
+ 1325  clear
+ 1326  sudo mdadm --create /dev/md0 --level=raid5 --raid-devices=3 /dev/sdb /dev/sdc /dev/sdd --spare-devices=1 /dev/sde 
+ 1327  cat /proc/mdstat
+ 1328  sudo mdadm --detail /dev/md0
+ 1329  sudo mkfs.ext4 /dev/md0
+ 1330  mkdir /media/mi_raid_5
+ 1331  mkdir -p /media/mi_raid_5
+ 1332  sudo mkdir -p /media/mi_raid_5
+ 1333  clear
+ 1334  sudo nano /etc/fstab
+ 1335  mount -a /dev/md0
+ 1336  sudo mount -a /dev/md0
+ 1337  clear
+ 1338  shutdown -h now
+ 1339  pwd
+ 1340  ls
+ 1341  exit
+ 1342  cd main
+ 1343  cd man
+ 1344  id
+ 1345  clear
+ 1346  crontab -e
+ 1347  clear
+ 1348  crontab -l
+ 1349  clear
+ 1350  umask
+ 1351  umask 022
+ 1352  umask
+ 1353  umask -s 022
+ 1354  umask --help
+ 1355  umask -help
+ 1356  clear
+ 1357  umask  022
+ 1358  umask
+ 1359  umask  -S 022
+ 1360  umask
+ 1361  clear
+ 1362  grops
+ 1363  groups
+ 1364  group
+ 1365  groups
+ 1366  groups adrian
+ 1367  clear
+ 1368  ls
+ 1369  tar czvf archivo.tar.gz Documentos/*
+ 1370  ls
+ 1371  ls -l
+ 1372  cat archivo.tar.gz
+ 1373  clear
+ 1374  tar tvt archivo.tar.gz
+ 1375  tar tvf archivo.tar.gz
+ 1376  tar xzvf archivo.tar.gz
+ 1377  ls -l
+ 1378  sudo tar xzvf archivo.tar.gz
+ 1379  ls -l
+ 1380  mv archivo.tar.gz archivo.tar
+ 1381  ls -l
+ 1382  sudo nano archivo.tar
+ 1383  rm archivo.tar
+ 1384  sudo tar cvf archivo.tar Documentos/*
+ 1385  ls -l
+ 1386  ps -u
+ 1387  ps -x
+ 1388  clear
+ 1389  ps -a
+ 1390  ps -l
+ 1391  ps --forest
+ 1392  ps --forest -u
+ 1393  pstree -u
+ 1394  pstree
+ 1395  clear
+ 1396  jobs
+ 1397  pstree
+ 1398  pstree -u
+ 1399  clear
+ 1400  kill -l
+ 1401  ps -l
+ 1402  sleep 1500 &
+ 1403  kill -9 6747
+ 1404  jobs
+ 1405  sleep 1500 &
+ 1406  jobs
+ 1407  kill -19
+ 1408  kill -19 6766
+ 1409  jobs
+ 1410  kill -18 6766
+ 1411  jobs
+ 1412  ps la
+ 1413  nice
+ 1414  nice -n 5 ps la
+ 1415  renice -n 18 ps la
+ 1416  ps la
+ 1417  sleep 5000&
+ 1418  ps la
+ 1419  renice -n 18 6783
+ 1420  ps la
+ 1421  jobs
+ 1422  killall sleep
+ 1423  ps la
+ 1424  top
+ 1425  clear
+ 1426  at 
+ 1427  at echo hola bebe 5:56
+ 1428  at echo
+ 1429  at + 5 minute
+ 1430  at now + 5 minute
+ 1431  jobs
+ 1432  18.03.2019 6:05
+ 1433  at 18.03.2019 6:05
+ 1434  at --help
+ 1435  sudo nautilus
+ 1436  clear
+ 1437  sudo mdadm --detail --scan
+ 1438  cat /proc/mdstat
+ 1439  sudo fdisk
+ 1440  sudo fdisk -l
+ 1441  sudo fdisk /dev/sdb
+ 1442  uname -r
+ 1443  clear
+ 1444  uname -r
+ 1445  umask 0117
+ 1446  umask
+ 1447  umask ?
+ 1448  sudo nano /etc/apt/source.list
+ 1449  cat /etc/apt/
+ 1450  sudo nano /etc/apt/sources.list
+ 1451  sudo apt-add-repository http://www.simp3s.net/descargar-mp3/descargar-musica
+ 1452  sudo add-apt-repository http://www.simp3s.net/descargar-mp3/descargar-musica
+ 1453  cat /var/lib/apt/lists
+ 1454  ls /var/lib/apt/lists
+ 1455  sudo nano /etc/apt/sources.list
+ 1456  sudo apt-get update
+ 1457  sudo add-apt-repository http://www.simp3s.net/descargar-mp3/descargar-musica
+ 1458  sudo apt-get update
+ 1459  sudo nano /etc/apt/sources.list
+ 1460  sudo apt-get update
+ 1461  sudo nano /etc/apt/sources.list
+ 1462  sudo apt-get upgrade
+ 1463  sudo nano /etc/apt/sources.list
+ 1464  clear
+ 1465  sudo apt-get install wine
+ 1466  clear
+ 1467  ps
+ 1468  ps -u
+ 1469  clear
+ 1470  sudo nano /etc/apt/sources.list
+ 1471  sudo apt-get --upgradable
+ 1472  sudo apt-list --upgradable
+ 1473  apt list --installed
+ 1474  clearç
+ 1475  clear
+ 1476  sudo synaptic
+ 1477  sudo Synaptic
+ 1478  clear
+ 1479  synaptic
+ 1480  clear
+ 1481  sudo add-apt-repository http://ppa.launchpad.net/dr-akulavich/lighttable/ubuntu
+ 1482  sudo apt-get update
+ 1483  sudo apt-get install lighttable-installer
+ 1484  clear
+ 1485  sudo add-apt-repository ppa:lighttable-installer/ppa
+ 1486  sudo dpkg -i lighttable-installer
+ 1487  clear
+ 1488  sudo add-apt-repository http://ppa.launchpad.net/dr-akulavich/lighttable/ubuntu
+ 1489  sudo apt-get update
+ 1490  sudo apt-get install 
+ 1491  sudo add-apt-repository --remove ppa:dr-akulavich/lighttable
+ 1492  clear
+ 1493  sudo add-apt-repository ppa:dr-akulavich/lighttable
+ 1494  sudo apt-get update
+ 1495  sudo apt-get install lighttable-installer
+ 1496  sudo apt-get remove --purge lighttable-installer
+ 1497  sudo add-apt-repository --remove ppa:dr-akulavich/lighttable
+ 1498  cat /etc/apt/sources.list
+ 1499  sudo apt-key list
+ 1500  sudo apt-get update
+ 1501  sudo apt-key list
+ 1502  sudo apt-key del 85C79C73
+ 1503  sudo apt-key list
+ 1504  sudo apt-get update
+ 1505  suhtdown -h now
+ 1506  shutdown -h now
+ 1507  ps
+ 1508  ps -a
+ 1509  ps -u
+ 1510  ps -x
+ 1511  clear
+ 1512  ps L
+ 1513  ps -o uid,command,user,sgroup,ni
+ 1514  clear
+ 1515  ls
+ 1516  ls -l
+ 1517  ls -a
+ 1518  clear
+ 1519  cd ..
+ 1520  ls
+ 1521  cd ..
+ 1522  ls
+ 1523  rmdir md12
+ 1524  sudo rmdir md12
+ 1525  sudo rm md12
+ 1526  sudo rm md127
+ 1527  clear
+ 1528  ls -l
+ 1529  cd ..
+ 1530  ls
+ 1531  pwd
+ 1532  cd $home
+ 1533  pwd
+ 1534  ls
+ 1535  find -name alli
+ 1536  find -name alli | cut -d '/' -f3
+ 1537  find -name alli | cut -d '/' -f4
+ 1538  find -name alli | sort -t '/' -k3
+ 1539  find -name alli | pwd
+ 1540  find -name alli
+ 1541  cd ..
+ 1542  ls
+ 1543  cd ..
+ 1544  ls
+ 1545  cd alli
+ 1546  cd ..
+ 1547  ls
+ 1548  find ^a*
+ 1549  ls -a
+ 1550  cd home
+ 1551  ls -a
+ 1552  cd ..
+ 1553  ls -a
+ 1554  cd /raiz/alli
+ 1555  cd /home
+ 1556  ls
+ 1557  cd adrian
+ 1558  ls -a
+ 1559  cd raiz
+ 1560  ls
+ 1561  tree
+ 1562  mkdir -p /A/adrian/tobi{a,b,c}
+ 1563  sudo mkdir -p /A/adrian/tobi{a,b,c}
+ 1564  tree
+ 1565  mkdir -p A/adrian/tobi{a,b,c}
+ 1566  tree
+ 1567  cat /proc/mdstat
+ 1568  sudo mdadm --stop md127
+ 1569  sudo mdadm --remove md127
+ 1570  cat /proc/mdstat
+ 1571  cat /etc/mdadm/mdadm.conf
+ 1572  clear
+ 1573  cd /
+ 1574  ls
+ 1575  sudo rmdir -r A
+ 1576  sudo rmdir A
+ 1577  rmdir -r A
+ 1578  cd A
+ 1579  tree
+ 1580  sudo rmdir -r adrian
+ 1581  sudo rmdir -R adrian
+ 1582  sudo rmdir --help
+ 1583  sudo rmdir -p adrian
+ 1584  sudo rm adrian
+ 1585  sudo rm -r adrian
+ 1586  clear
+ 1587  cd ..
+ 1588  ls
+ 1589  sudo rmdir A
+ 1590  clear
+ 1591  cd /home/adrian
+ 1592  ls
+ 1593  cd raiz
+ 1594  tree
+ 1595  rmdir -r adrian
+ 1596  rm -r adrian
+ 1597  rm -r A
+ 1598  rm -r adriano
+ 1599  rm -r alli
+ 1600  tree
+ 1601  cd ..
+ 1602  ls
+ 1603  rmdir raiz
+ 1604  cd prueba
+ 1605  tree
+ 1606  rm perso.*
+ 1607  ls
+ 1608  clear
+ 1609  pwd
+ 1610  mkdir Documentos/perso
+ 1611  cd ..
+ 1612  ls
+ 1613  mkdir perso
+ 1614  mv peso /prueba
+ 1615  cat perso
+ 1616  ls
+ 1617  cat perso.txt
+ 1618  ls
+ 1619  rmdir perso
+ 1620  clear
+ 1621  nano perso.txt
+ 1622  cp perso.txt /prueba
+ 1623  ls
+ 1624  cp perso.txt prueba
+ 1625  cp a pruena
+ 1626  cp a prueba
+ 1627  cd /home/adrian/Documentos/prueba
+ 1628  cd /home/adrian/prueba
+ 1629  clear
+ 1630  cd ..
+ 1631  ls
+ 1632  rm perso.txt
+ 1633  rm prueba
+ 1634  rm -r prueba
+ 1635  clear
+ 1636  ls
+ 1637  cd ,,
+ 1638  cd ..
+ 1639  clear
+ 1640  cd /
+ 1641  cd $home
+ 1642  clear
+ 1643  pwd
+ 1644  mkdir prueba
+ 1645  nano /home/adrian/Documentos/perso.txt
+ 1646  cd Documentos
+ 1647  cp perso.txt $home
+ 1648  cp perso.txt /$home
+ 1649  cd $home
+ 1650  mkdir sistemas
+ 1651  mkdir ejercicios; cd ejercicios; mkdir programacion
+ 1652  tree
+ 1653  rm -r ejercicios/programacion
+ 1654  mkdir ejercicios/programacion
+ 1655  mrdir -p ejercicios/programacion
+ 1656  rmdir -r ejercicios/programacion
+ 1657  rmdir -p ejercicios/programacion
+ 1658  clear
+ 1659  tree
+ 1660  ls
+ 1661  cd ..
+ 1662  ls
+ 1663  cd $home
+ 1664  pwd
+ 1665  clear
+ 1666  mkdir -p ejercicios/programacion
+ 1667  ls /
+ 1668  ls /usr/bin/d*
+ 1669  ls -R /etc
+ 1670  clear
+ 1671  ls -R /etc
+ 1672  ls -R /etc | less
+ 1673  ls
+ 1674  cd $home
+ 1675  ls
+ 1676  cd ..
+ 1677  ls
+ 1678  cd adrian
+ 1679  nano sistemas/alumno.tx{1.txt,2.txt}
+ 1680  ls
+ 1681  mkdir sistemas/lista,lustro,lastre
+ 1682  tree sistemas
+ 1683  rmdir sistemas/lista,lustro.lastre
+ 1684  rmdir sistemas/lista,lustro,lastre
+ 1685  mkdir sistemas/lista lustro lastre
+ 1686  tree sistemas
+ 1687  ls sistemas
+ 1688  ls
+ 1689  mrdir lastre
+ 1690  rmdir lastre
+ 1691  rmdir lustro
+ 1692  clear
+ 1693  ls
+ 1694  ls sistemas
+ 1695  mkdir sistemas/lastre; sistemas/lustro
+ 1696  mkdir sistemas/lastre; mkdir sistemas/lustro
+ 1697  mkdir sistemas/lustro; mkdir sistemas/ad
+ 1698  ls sistemas
+ 1699  nano sistemas/alumno.tx{1.txt,2.txt}
+ 1700  ls sistemas
+ 1701  sudo nano a.txt;sudo b.txt; sudo c.txt
+ 1702  nano b.txt; nano c.txt
+ 1703  ls
+ 1704  ls -l
+ 1705  ls -l | sort -t ' ' -k9
+ 1706  clear
+ 1707  ls
+ 1708  rm *.txt
+ 1709  ls
+ 1710  cd ..
+ 1711  ls
+ 1712  cd adrian/sistemas
+ 1713  ls
+ 1714  rmdir ad
+ 1715  sudo nano alumno.txt
+ 1716  ls
+ 1717  sudo nano alumno.txt
+ 1718  ls
+ 1719  sudo nano a.txt; b.txt;sudo nano c.txt
+ 1720  ls
+ 1721  ls -l
+ 1722  chown adrian a.txt
+ 1723  sudo chown adrian a.txt
+ 1724  sudo chown adrian:adrian alumno.txt
+ 1725  ls -l
+ 1726  grep --help
+ 1727  sudo fdisk -l \ grep /dev
+ 1728  sudo fdisk -l | grep /dev
+ 1729  sudo fdisk -l | grep -o /dev
+ 1730  sudo fdisk -l | grep 'e$'
+ 1731  sudo fdisk -l |
+ 1732  sudo fdisk -l
+ 1733  sudo fdisk -l | grep 'e$'
+ 1734  sudo fdisk -l | grep 'v$'
+ 1735  sudo fdisk -l | grep 'ev$'
+ 1736  sudo fdisk -l | grep 's$'
+ 1737  sudo fdisk -l | grep 'sd'
+ 1738  sudo fdisk -l | grep (sd)
+ 1739  sudo fdisk -l | grep ('sd')
+ 1740  sudo fdisk -l | grep (sd\)
+ 1741  sudo fdisk -l | grep (sd)\
+ 1742  sudo fdisk -l | grep (sd)/
+ 1743  clear
+ 1744  sudo fdisk -l | grep 'sd'
+ 1745  sudo fdisk -l | grep -o /dev
+ 1746  sudo fdisk -l | grep -o '/dev'
+ 1747  sudo fdisk -l | grep -o 'dev'
+ 1748  sudo fdisk -l | grep -o 'dev/sdb1'
+ 1749  sudo fdisk -l | grep -o '/dev/sdb1'
+ 1750  sudo fdisk -l | 
+ 1751  sudo fdisk -l | grep  '/dev/sdb1'
+ 1752  sudo fdisk -l | grep  '/dev/sdb'
+ 1753  sudo fdisk -l | grep  -o '/dev/sdb'
+ 1754  cd ..
+ 1755  ls
+ 1756  cd dev
+ 1757  ls
+ 1758  ls -l
+ 1759  ls -l | grep ^b-c
+ 1760  ls -l | grep ^b-c*
+ 1761  ls -l | grep ^b*
+ 1762  ls -l | grep ^b-c
+ 1763  ls -l | grep ^[b-c]
+ 1764  ls -
+ 1765  ls -l $HOME
+ 1766  ls -l
+ 1767  cat input/mice | xxd
+ 1768  sudo cat input/mice | xxd
+ 1769  sudo cat input/mice
+ 1770  sudo cat input/mice | xxd
+ 1771  cd input
+ 1772  ls
+ 1773  sudo cat event0
+ 1774  sudo cat event1
+ 1775  sudo cat mouse0 
+ 1776  sudo cat mouse1
+ 1777  cd by-path/
+ 1778  ls
+ 1779  sudo cat pci-0000\:00\:04.0-mouse 
+ 1780  sudo cat pci-0000\:00\:04.0-mouse | xxd
+ 1781  ls
+ 1782  sudo cat pci-0000\:00\:04.0-mouse | xxd
+ 1783  cd ../..
+ 1784  cdpts/n
+ 1785  cd pts/n
+ 1786  cd pts
+ 1787  ls
+ 1788  tyy
+ 1789  tty
+ 1790  cd ..
+ 1791  ls 
+ 1792  ls -l | grep $n*,N*
+ 1793  ls -l | grep $n*
+ 1794  sudo ls -l | grep $n*
+ 1795  sudo ls -l | grep n*$
+ 1796  tty
+ 1797  ls -l /ttyN
+ 1798  ls -l /tty
+ 1799  ifconfig
+ 1800  sudo ssh -p george 172.29.18.4
+ 1801  sudo ssh -p 22 diego 172.29.18.52
+ 1802  ifconfig
+ 1803  reebot
+ 1804  reboot
+ 1805  shutdown -h now
+ 1806  pwd
+ 1807  clear
+ 1808  cat /etc/mdstat
+ 1809  cat /etc/mdastat
+ 1810  clear
+ 1811  cd Documentos
+ 1812  ls
+ 1813  cd proyecto
+ 1814  ls
+ 1815  cd ..
+ 1816  ls
+ 1817  clear
+ 1818  ls
+ 1819  cd proyecto
+ 1820  git status
+ 1821  apt git install
+ 1822  sudo apt git install
+ 1823  sudo apt-get install git
+ 1824  sudo apt-get update
+ 1825  sudo apt-get install git
+ 1826  clear
+ 1827  git status
+ 1828  sudo apt install git
+ 1829  sudo git status
+ 1830  ls
+ 1831  ls -la
+ 1832  git --version
+ 1833  git init
+ 1834  ls -la
+ 1835  ls -la .git
+ 1836  git status
+ 1837  git remove add origin https://github.com/adrivv/proyecto.git
+ 1838  git remote add origin https://github.com/adrivv/proyecto.git
+ 1839  git remote add origin https://github.com/adrivv/proyecto.git
+ 1840  git pull origin master
+ 1841  cd ..
+ 1842  mkdir prolinux
+ 1843  cd prolinux
+ 1844  touch a.txt
+ 1845  touch b.txt
+ 1846  touch c.txt
+ 1847  ls -la
+ 1848  git init
+ 1849  ls -la
+ 1850  git remote add origin https://github.com/adrivv/prolinux.git
+ 1851  git pull  master
+ 1852  git pull master
+ 1853  git add 
+ 1854  git add .
+ 1855  git status
+ 1856  git commit -m "archivos iniciales.txt"
+ 1857  git config --global user.email "adri-2a@hotmail.es"
+ 1858  git config --global user.name "adrian"
+ 1859  git commit -m "archivos iniciales.txt"
+ 1860  git status
+ 1861  git push origin master
+ 1862  cd ..
+ 1863  cd proyecto
+ 1864  ls -la
+ 1865  git init
+ 1866  history
+ 1867  history >> comandos.txt
+ 1868  ls -la
+ 1869  cat comandos.txt
+ 1870  cd ..
+ 1871  clear
+ 1872  cd Documento
+ 1873  cd Documentos
+ 1874  cd proyecto
+ 1875  ls -la
+ 1876  git init
+ 1877  git remote add origin https://github.com/adrivv/proyecto.git
+ 1878  git pull master
+ 1879  git add.
+ 1880  git add
+ 1881  git add .
+ 1882  sudo git add .
+ 1883  git status
+ 1884  git -m "archivos mi proyecto"
+ 1885  git commit -m "archivos mi proyecto"
+ 1886  git status
+ 1887  git push origin master
+ 1888  git config --global credential.helper cache
+ 1889  git pull origin master
+ 1890  gedit  .gitignore
+ 1891  gedit .gitignore
+ 1892  ls
+ 1893  ls -la
+ 1894  git add gitignore
+ 1895  git add .gitignore
+ 1896  git commit -m "archivo ignorados"
+ 1897  git status
+ 1898  git push origin master
+ 1899  git tag
+ 1900  git tag -a v.0 -m 'Tag Inicial proyecto linux'
+ 1901  git tag
+ 1902  git push origin master --tags
+ 1903  git tag show v.0
+ 1904  git show v.0
+ 1905  git branch
+ 1906  git status
+ 1907  git add . && commit -m "mi Informacion 2" && push origin master
+ 1908  sudo git add . && commit -m "mi Informacion 2" && push origin master
+ 1909  cd ..
+ 1910  cd prolinux
+ 1911  ls -la
+ 1912  cd ..
+ 1913  ls -la
+ 1914  copy -r proyecto proyecto2
+ 1915  sudo copy -R proyecto proyecto2
+ 1916  sudo copy  proyecto proyecto2
+ 1917  copy --help
+ 1918  sudo mv  proyecto proyecto2
+ 1919  ls -la
+ 1920  sudo mv  proyecto2 proyecto
+ 1921  ls -la
+ 1922  history
+ 1923  history >> comando_git.txt
+ 1924  cat comando_git.txt
+ 1925  ls -la
+ 1926  gedit comando_git.txt
+ 1927  shutdown -h now
+ 1928  cd Documentos
+ 1929  cat comando_git.txt
+ 1930  cd Documentos
+ 1931  cat comandos_git.txt
+ 1932  ls
+ 1933  cat comando_git.txt
+ 1934  cd Documentos
+ 1935  ls
+ 1936  git config -- help
+ 1937  git config --help
+ 1938  git config --global user.name "adricvv"
+ 1939  git config --global user.email "adri-2ahotmail.es"
+ 1940  git config --global color.ui auto
+ 1941  git config --list
+ 1942  mkdir libro
+ 1943  ls -la
+ 1944  cd libro
+ 1945  git init
+ 1946  ls -la
+ 1947  git status
+ 1948  touch indice.txt
+ 1949  ls -l
+ 1950  git config --global color.diff.meta "blue black bold"
+ 1951  git config --list
+ 1952  nano indice.txt
+ 1953  git status
+ 1954  ls -la
+ 1955  git add indice.txt
+ 1956  git status
+ 1957  git commit -m "añadir indice de libro"
+ 1958  git status
+ 1959  nano indice.txt
+ 1960  git status
+ 1961  git add indice.txt
+ 1962  git status
+ 1963  git commit -m "Añadiendo capitulo 3 sobre gestion de ramas"
+ 1964  git diff
+ 1965  git show
+ 1966  git show v.0
+ 1967  git commit --amend -m "Añadido capitulo 3 sobre gestion de ramas al índice"
+ 1968  git show
+ 1969  git clone https://github.com/AgustinPrf/libro-git.git
+ 1970  ls
+ 1971  ls -la
+ 1972  clear
+ 1973  cd ..
+ 1974  git clone https://github.com/AgustinPrf/libro-git.git
+ 1975  cd libro-git
+ 1976  cd libro
+ 1977  git reset --hard 8c808
+ 1978  clear
+ 1979  git clone https://github.com/AgustinPrf/libro-git.git
+ 1980  clear
+ 1981  git clone https://github.com/asalber/libro-git.git
+ 1982  clear
+ 1983  git remote add origin https://github.com/adrivv
+ 1984  git pull origin master
+ 1985  git status
+ 1986  git add .
+ 1987  git push origin master
+ 1988  clear
+ 1989  git clone https://github.com/AgustinPrf/libro-git.git
+ 1990  clear
+ 1991  git remote add origin https://github.com/adrivv
+ 1992  git push origin master
+ 1993  git status
+ 1994  clear
+ 1995  ifconfig
+ 1996  ls
+ 1997  cd libro-git
+ 1998  git reset --hard 48ed8
+ 1999  git remote remove origin
+ 2000  ls -la
+ 2001  nano indice.txt
+ 2002  git status
+ 2003  git diff
+ 2004  git commit --amend
+ 2005  git status
+ 2006  ls -la
+ 2007  git reset --hard48ed8
+ 2008  git reset --hard 48ed8
+ 2009  nano indice.txt
+ 2010  git status
+ 2011  git add indice.txt
+ 2012  git status
+ 2013  git checkout -- indice.txt
+ 2014  git status
+ 2015  clear
+ 2016  git reset indice.txt
+ 2017  git status
+ 2018  git checkout indice.txt
+ 2019  git status
+ 2020  nano indice.txt
+ 2021  ls
+ 2022  cd capitulos
+ 2023  ls
+ 2024  nano capitulo3.txt
+ 2025  rm capitulo3.txt
+ 2026  mkdir capitulo4.txt
+ 2027  git status
+ 2028  git add capitulo4.txt
+ 2029  git status
+ 2030  ls
+ 2031  rm capitulo4.txt
+ 2032  rm -r capitulo4.txt
+ 2033  nano capitulo4.txt
+ 2034  git add capitulo4.txt
+ 2035  git status
+ 2036  git reset indice.txt
+ 2037  ls
+ 2038  cd ..
+ 2039  ls
+ 2040  git reset capitulos
+ 2041  ls -la
+ 2042  cd capitulos
+ 2043  ls
+ 2044  git status
+ 2045  ce ..
+ 2046  cd..
+ 2047  cd ..
+ 2048  git checkout capitulos
+ 2049  git status
+ 2050  tree
+ 2051  nano indice.txt
+ 2052  rm capitulos/capitulo3.txt
+ 2053  git add capitulos
+ 2054  git status
+ 2055  cd capitulos
+ 2056  git commit -m 'Borrado accidental'
+ 2057  git status
+ 2058  git log
+ 2059  git reset --soft HEAD~1
+ 2060  git commit -m 'Borrado accidental'
+ 2061  git commit --amend
+ 2062  cd ..
+ 2063  git checkout capitulos
+ 2064  cd ..
+ 2065  tree
+ 2066  history >> historial_git.txt
